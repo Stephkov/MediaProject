@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Series Tracker</string>
+    <string name="media_tracker">Track the TV shows you have watched</string>
+    <string name="title">Shows name</string>
+    <string name="add_item">Add a Show</string>
+    <string name="media_title">TV show Title</string>
+</resources>

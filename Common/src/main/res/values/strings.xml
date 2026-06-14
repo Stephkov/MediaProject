@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NA</string>
+    <string name="media_tracker">Media Tracker</string>
+    <string name="watched">Watched</string>
+    <string name="_count">0</string>
+    <string name="media_title">Media Title</string>
+    <string name="genre">Genre</string>
+    <string name="add_item">add item\n</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">NA\n</string>
+    <string name="add_media">Add Media</string>
+</resources>
