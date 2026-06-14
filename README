@@ -1,19 +1,34 @@
-Media Tracker Project
+# Media Tracker Project
 
-**Overview**
+## Overview
 
-This project contains two Android applications that use a shared common module:
+Media Tracker is an Android multi-module project that includes two separate applications which share a common module.
 
-* Movies Tracker App – allows the user to manage a personal movie watch list.
-* Series Tracker App – allows the user to manage a personal TV series watch list.
+The project contains:
+
+* **Movies Tracker App** – allows the user to manage a personal movie watch list.
+* **Series Tracker App** – allows the user to manage a personal TV series watch list.
 
 Both applications inherit from a shared base activity located in the common module.
+The shared module contains common UI layouts, logic, models, adapter, and storage utilities.
 
-**Data Storage**
+## Data Storage
 
-The project uses SharedPreferences and Gson to save the media lists locally on the device.
+The project uses **SharedPreferences** and **Gson** to store the media lists locally on the device.
 
-Each application stores its data separately:
+Each application saves its data separately:
 
-Movies are saved using MOVIES_KEY
-Series are saved using SERIES_KEY
+* Movies are saved using `MOVIES_KEY`
+* Series are saved using `SERIES_KEY`
+
+This allows both applications to use the same shared logic while keeping their data separated.
+
+## Features
+
+* Add new movies or series
+* Display saved media items in a list
+* Mark items as watched or not watched
+* Save data locally on the device
+* Reuse shared code through a common module
+
+]
